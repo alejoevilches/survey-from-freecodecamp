@@ -121,7 +121,7 @@ label{
     border-radius: 5px;
     border: 2px solid #212529;
     background: #212529;
-    margin:0 20px;
+    margin:0 5px;
   }
 
 .button:hover {
@@ -132,4 +132,15 @@ label{
 .buttons{
     display:flex;
     justify-content: center;
+}
+
+@media screen and (max-width:500px) {
+    .buttons{
+        display:flex;
+        flex-direction: column;
+    }
+    
+    .button{
+        margin:5px 0;
+    }
 }
