@@ -1,0 +1,135 @@
+@font-face {
+    font-family: "Poppins Title";
+    src: url(/fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Poppins Bold Italic";
+    src: url(/fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Poppins Light";
+    src: url(/fonts/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: "Poppins Subtitles";
+    src: url(/fonts/Poppins-Thin.ttf);
+}
+
+body{
+    background-image: url("https://riveridstorage.blob.core.windows.net/appcarpblob/carp_bk2.jpg");
+    background-color: black;
+}
+
+a{
+    color:rgb(255, 92, 92);
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+nav p{
+    color:white;
+    align-content: space-between;
+    padding:auto 30px;
+    font-size: 1.1em;
+    font-family: "Poppins Light";
+}
+
+.riverid_logo{
+    width:200px;
+    padding:10px;
+}
+
+fieldset{
+    border: none;
+}
+
+.title{
+    color:white;
+    font-family: "Poppins Title";
+    text-align:center;
+}
+
+.form{
+    display:flex;
+    justify-content: center;
+}
+
+form{
+    justify-content: center;
+    width:70vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    max-widtH:600px;
+    display:flex;
+    flex-direction: column;
+    color:white;
+}
+
+label{
+    font-family: "Poppins Light";
+}
+
+.general_info input{
+    display:block;
+    width:40vw;
+    margin:5px 0px;
+    padding:5px 0;
+}
+
+.general_info p{
+    padding: 0 0 15px;
+}
+
+.form_title{
+    font-family:"Poppins Bold Italic";
+    margin:0;
+}
+
+.club_info{
+    display:flex;
+    flex-direction: column;
+    width:40vw;
+}
+
+.form_subtitle{
+    font-family: "Poppins Subtitles";
+}
+
+.files_info{
+    display:flex;
+    flex-direction: column;
+}
+
+.button {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #212529;
+    background: #212529;
+    margin:0 20px;
+  }
+
+.button:hover {
+    background: #fff;
+    color: red
+}
+
+.buttons{
+    display:flex;
+    justify-content: center;
+}
