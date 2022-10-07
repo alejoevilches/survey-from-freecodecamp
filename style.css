@@ -66,7 +66,7 @@ form{
     justify-content: center;
     width:70vw;
     background-color: rgba(0, 0, 0, 0.5);
-    max-widtH:600px;
+    max-width:600px;
     display:flex;
     flex-direction: column;
     color:white;
@@ -78,7 +78,8 @@ label{
 
 .general_info input{
     display:block;
-    width:40vw;
+    width:60vw;
+    max-width:500px;
     margin:5px 0px;
     padding:5px 0;
 }
@@ -143,4 +144,8 @@ label{
     .button{
         margin:5px 0;
     }
+}
+
+.activities{
+    width:max-content;
 }
